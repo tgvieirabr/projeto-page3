@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+}
+
+nav.menu {
+    float: right;
+}
+
+nav.menu ul {
+    list-style: none;
+    margin-top: 35px;
+}
+
+nav.menu ul li {
+    display: inline;
+    padding: 30px;
+}
+
+nav.menu ul li a {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#banners {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#banners .banner-descricao {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+#banners .banner-descricao h2 {
+    margin-top: 150px;
+    font-size: 64px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#banners .banner-descricao p {
+    font-size: 22px;
+    color: #fff;
+}
+
+#banners .banner-descricao a {
+    display: inline-block;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px 50px;
+    background: #A6CE39;
+}
+
+@media (max-width: 992px) {
+
+    #banners .banner-descricao h2 {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    #banners .banner-descricao h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+}
+
+.titulo {
+    font-size: 64px;
+    font-family: roboto;
+    text-align: center;
+    color: #F58220;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-weight: 700;
+
+}
+
+.subtitulo {
+    font-size: 36px;
+    font-family: Noto serif Tamil;
+    color: #bebebe;
+    text-align: center;
+    margin-top: -10px;
+    font-weight: 400;
+
+}
+
+#sobre p {
+    font-size: 16px;
+    font-family: roboto;
+    font-style: regular;
+    line-height: 18, 75px;
+}
+
+#contato input {
+    background-color: #ECECEC;
+    
+    height: 70px;
+
+
+}
+
+#contato textarea {
+    background-color: #ECECEC;
+    
+    height: 254px;
+}
+
+#contato .btn {
+    background-color: #A6CE39;
+    width: 215px;
+    height: 70px;
+    font-size: 24px;
+    font-family: roboto;
+    float: right;
+    color: #fff;
+}
+
+.rodape{
+    background-color: #F58220;
+    color:white;
+}
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 0.6}
+
+  #serviços h3 {
+      text-align: center;
+      font-family: roboto;
+      font-size: 18px;
+      font-style: bold;
+      line-height: 21px;
+      line-height: 100%;
+      margin-top: 25px;
+      margin-bottom: 20px;
+  }
+  #serviços p {
+      font-family: roboto;
+      font-size: 16px;
+      font-style: regular;
+      line-height: 19px;
+
+  }
+  #contato .container {
+      margin-top:  50px;
+      margin-bottom: 50px;
+
+  }
+  #contato .btn {
+      margin-top: 35px;
+  }
